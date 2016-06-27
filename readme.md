@@ -31,7 +31,7 @@
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/curd_result.png)
 
-### select
+### add_select
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/database.png)
 
@@ -40,6 +40,6 @@
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/delete_data.png)
 
-### select
+### del_select
 
-![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/database.png)
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/del_select.png)
