@@ -23,4 +23,6 @@
 	  PRIMARY KEY (`Id`)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户信息表';
 
-![]()
+
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/curd_result.png)
