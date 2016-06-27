@@ -43,3 +43,41 @@
 ### del_select
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/del_select.png)
+
+
+
+
+## 存储过程
+
+	DROP PROCEDURE IF EXISTS `P_UserInfo`;
+	DELIMITER ;;
+	CREATE DEFINER=`root`@`localhost` PROCEDURE `P_UserInfo`(IN ExtId INT,IN ExtUserName VARCHAR(64),IN ExtUserPass VARCHAR(64),OUT ExtReturnVal INT)
+	TOP: BEGIN
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION
+	    BEGIN
+	        ROLLBACK;
+	        SET ExtReturnVal = 0;  -- Failed
+	    END;
+	
+	START TRANSACTION;
+	
+	        INSERT INTO userinfo(Id,UserName,UserPass) VALUES(ExtId,ExtUserName,ExtUserPass);
+	        
+	        SET ExtReturnVal = 1;
+	        SELECT ExtReturnVal;
+	        COMMIT;
+	END
+	;;
+	DELIMITER ;
+
+
+
+
+### 存储过程执行结果
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/mysql_proc.png)
+
+### proc_select
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/proc_select.png)
+
