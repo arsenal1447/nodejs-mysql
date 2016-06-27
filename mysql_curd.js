@@ -11,18 +11,23 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-var userAddSql = 'INSERT INTO userinfo(Id,UserName,UserPass) VALUES(0,?,?)';
-var userAddSql_Params = ['Wilson','123456'];
+// add new data
+// var userAddSql = 'INSERT INTO userinfo(Id,UserName,UserPass) VALUES(0,?,?)';
+// var userAddSql_Params = ['Wilson','123456'];
+
+//delete the data
+
+var userDelSql = 'DELETE FROM userinfo';
 
 //query a sql
-connection.query(userAddSql, userAddSql_Params, function(err, result){
+connection.query(userDelSql, function(err, result){
     if(err){
-        console.log('[INSERT ERROR]- ', err.message);
+        console.log('[DELETE ERROR]- ', err.message);
         return;
     }
 
     console.log('-----------------Insert--------------------------');
-    console.log('INSERT ID:',result);
+    console.log('DELETE affectedRows:',result.affectedRows);
     console.log('------------------------------------------------\n\n');
 });
 

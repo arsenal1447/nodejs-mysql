@@ -27,7 +27,19 @@
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户信息表';
 
 
+### add
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/curd_result.png)
+
+### select
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/database.png)
+
+
+### delete
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/delete_data.png)
+
+### select
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/database.png)
