@@ -7,7 +7,7 @@
 - 3,命令行执行node test_mysql.js
 
 
-![](https://github.com/zxx1988328/nodejs-mysql/blob/master/mysql_test.png)
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/mysql_test.png)
 
 
 ## MYSQL CURD
@@ -28,4 +28,4 @@
 
 
 
-![](https://github.com/zxx1988328/nodejs-mysql/blob/master/curd_result.png)
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/curd_result.png)
