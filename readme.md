@@ -29,3 +29,5 @@
 
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/curd_result.png)
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/database.png)
