@@ -1,6 +1,6 @@
 ## 环境部署
 
-- 1,复制node_modules目录到根目录下,为了安装mysql驱动
+- 1,复制node_modules目录到根目录下,为了安装mysql的nodejs的驱动,(***mysql要单独安装***)
 
 - 2,只有这样,才可以执行 npm install mysql成功
 
