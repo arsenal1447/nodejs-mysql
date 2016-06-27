@@ -90,3 +90,7 @@
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/stop_mysql.png)
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/mysql_reconnect.png)
+
+手动启动mysql
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/connect_success.png)
