@@ -81,3 +81,12 @@
 
 ![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/proc_select.png)
 
+
+
+## mysql 重连
+
+手动停止mysql
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/stop_mysql.png)
+
+![](https://github.com/zxx1988328/nodejs-mysql/blob/master/img/mysql_reconnect.png)
